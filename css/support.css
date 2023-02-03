@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+
+}
+.noto {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+li a, .dropbtn {
+     display: inline-block;
+      color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+    }
+
+ li {
+      float: right;
+      list-style-type: none;
+     } 
+
+   li.dropdown {
+     display: inline-block;
+     }
+
+
+  .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     }
+
+.dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+    }
+
+.dropdown:hover .dropdown-content {
+     display: block;
+     }
+
+
+header{
+    background-color:#188153 ;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 55px;
+    color: lavender;
+    font-family: 'Noto Sans', sans-serif;                
+    }
+
+.logo{
+    width: 15%;                
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+}
+
+#page-title{
+    width: 980px;
+    height:170px;
+    margin:10px ;
+    position: relative;
+    left: 100px;
+    
+    
+}
+
+#page-title1{
+    color:white
+}
+
+#page-title2 {
+    color: #FFA115;
+}
+
+.getzakra{
+    padding: 10px 50px 10px 50px;
+    background-color: rgb(255,163,25);
+    border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+    color: white;
+}
+
+.pricing, .StarterDemos, .Pro, .Support, .Blog, .Account {
+    color: white;
+}
+
+.visit-doc {
+    margin-bottom: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 0px;
+    background-color: white; border-radius: 4px; box-shadow: 4px 5px 30px 0 rgb(0 0 0 / 10%); width: calc(75% - 10px); padding: 30px;
+
+}
+
+#free {
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+    box-sizing: border-box;
+    width: 175px;
+    height: 45px;
+    padding: 3px 10px 3px 10px;
+    font-size: 15px;
+}
+
+#premium {
+   border: 1px solid rgb(255, 161, 45);
+   background-color: white;
+   border-radius: 4px;
+   color: rgb(255, 161, 45);
+   box-sizing: border-box;
+   width: 200px;
+   height: 40px;
+   padding: 3px 10px 3px 10px;
+   font-size: 15px;
+   }
+
+.livechat {
+    font-size: 13px;
+    color: grey;
+}
+
+.visit-doc div{
+    display: flex; 
+    justify-content:space-between; 
+    margin: 30px 50px;
+}
+
+#documentation {
+    
+   border-radius: 4px;
+   color:white;
+   box-sizing: border-box;
+   width: 200px;
+   height: 40px;
+   padding: 3px 10px 3px 10px;
+   background-color:  rgb(255, 161, 45);
+   border: 1px solid rgb(255, 161, 45);
+   font-size: 15px;
+   position: relative;
+   top: 100px;
+   left: 20px;
+
+}
+
+.queries{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 5px;
+
+}
+
+
+
+.row{
+
+    
+    margin-top: 20px;
+    margin-bottom: 300px;
+
+}
+
+
+#coloryellow{
+    color: rgb(255,163,25)
+
+}
+
+
+.form-title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+
+}
+
+.titlefont {
+    font-size: 40px;
+}
+
+
+.titlefont2 {
+    font-size: 35px;
+}
+
+
+.row section{
+    display: flex; 
+    justify-content:space-between; 
+    margin: 30px 50px;
+
+}
+
+.row div{
+    background-color: white; border-radius: 4px; box-shadow: 4px 5px 30px 0 rgb(0 0 0 / 10%); width: calc(43% - 10px); padding: 40px;
+}
+
+.star{
+    color: red;
+}
+
+#Name, #Email, #Subject, #URL {
+
+   font-size: 18px;
+   height: 50px;
+   width: 700px;
+   
+}
+
+
+#Message {
+   
+   height: 150px;
+   width: 700px;
+
+}
+
+.formbutton {
+
+    
+    padding: 15px 60px 15px 60px;
+    border-bottom-right-radius: 5px ;
+    border-bottom-left-radius: 5px ;
+    border-top-right-radius: 5px ;
+    border-top-left-radius: 5px ;
+    background-color: rgb(35, 171, 112) ;
+    color: white;
+    position: relative;
+    left: 350px;
+    font-size: 16px;
+
+
+}
+
+.form {
+
+    background-color: #f8f8f8;
+    
+
+}
+
+.label{
+    position: relative;
+    right: 300px;
+}
+
+.question {
+    position: relative;
+    left: 150px;
+    
+}
+
+.answer {
+    position: relative;
+    left: 170px;
+}
+
+.block-questions {
+    margin-bottom: 100px;
+}
+
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.logo2 {
+
+    width: 25%;     
+    position: relative;
+    right: 10px         
+
+}
+
+.footer-green{
+    color: #39c0a4;
+}
+
+.footer div{
+    display: flex; 
+    justify-content:space-between; 
+    margin: 0px 120px 0px 120px;
+    
+
+}
+
+.copyright {
+
+    text-align: center;
+
+
+}
+
+.questions {
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+
+
+}
